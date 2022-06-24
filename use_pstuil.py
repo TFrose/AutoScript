@@ -8,11 +8,5 @@
 # @File : use_pstuil.py
 # @desc : use pstuil and get data of the linux system
 
-
-import os
-
-os.path
-
-
 import paramiko
 paramiko.SFTP
