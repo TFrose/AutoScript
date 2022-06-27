@@ -6,7 +6,7 @@
 # Product : PyCharm
 # Project : AutoScript
 # @File : use_pstuil.py
-# @desc : use pstuil and get data of the linux system
+# @desc : use pstuil and get data of the linux system to deal
 
 import paramiko
 
@@ -22,3 +22,4 @@ stdin, stdout, stderr = ssh.exec_command('df -hl')
 print(stdout.read().decode())
 # 关闭连接
 ssh.close()
+
